@@ -2,41 +2,70 @@ h1 {
 	color:white;
 	background-color:#4aaaa5;
 	float:left;
+	width:20%;
+	margin-left:10%;
+	text-align:center;
+	padding:20px;
 
 
 }
 
-#pic1 {
-	width:30px;
-	height:30px;
 
-
-
-
-}
 
 #navi {
 	font-size:15px;
 	color:grey;
 	background-color:white;
 	float:left;
-
+	width:55%;
+	text-align:right;
+	padding:20px;
 
 }
 h2 {
 	color:#4aaaa5;
+	clear: both;
+	margin-left:10%;
+	overflow:auto;
 }
+
+.img1 {
+	background-size: auto;
+	height:200px;
+	width:200px;
+	margin-left:10%;
+}
+
+
 
 
 h3 {
 	color:#4aaaa5;
+	float:right;
 }
 
 #p1 {
 	color:grey;
+	padding-left:30%;
+	padding-right:40%;
+	
 }
 
 
 #p2 {
 	color:grey;
+	padding-left:10%;
+	padding-right:40%;
+
 }
+
+.icon{
+	
+	background-size: auto;
+	height:28px;
+	width:28px;
+	float:right;
+}
+ #bot {
+	width:50%;
+ }
