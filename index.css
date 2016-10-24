@@ -5,7 +5,7 @@ h1 {
 	width:20%;
 	margin-left:10%;
 	text-align:center;
-	padding:20px;
+	padding:13px
 
 
 }
@@ -34,6 +34,8 @@ h2 {
 	height:200px;
 	width:200px;
 	margin-left:10%;
+	float:left;
+	
 }
 
 
@@ -42,30 +44,37 @@ h2 {
 h3 {
 	color:#4aaaa5;
 	float:right;
+	width:20%;
 }
 
 #p1 {
 	color:grey;
-	padding-left:30%;
-	padding-right:40%;
+	padding-left:26%;
+	padding-right:33%;
+	position:relative;
+	float:left;
 	
+
 }
 
 
 #p2 {
 	color:grey;
 	padding-left:10%;
-	padding-right:40%;
+	padding-right:33%;
+	position:relative;
+	float:left;
+	
 
 }
 
 .icon{
 	
-	background-size: auto;
+	
 	height:28px;
 	width:28px;
 	float:right;
 }
  #bot {
-	width:50%;
+	
  }
