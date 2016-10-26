@@ -2,69 +2,54 @@ body {
 
 }
 
-
-h1 {
-	color:white;
-	background-color:#4aaaa5;
+#header {
+	position:fixed;
+	top:0;
+	width:60%;
 	float:left;
-	width:20%;
-	margin:auto;
-	text-align:center;
-	padding:13px
-
-
 }
 
-
-
-#navi {
-	font-size:15px;
-	color:grey;
-	background-color:white;
-	float:left;
-	width:55%;
-	text-align:right;
-	padding:20px;
-	border-color:black;
-
+#nav{
+	position:relative;
+	top:0;
+	width:40%;
+	float:right;
 }
-h2 {
-	color:#4aaaa5;
-	clear: both;
-	margin-left:10%;
-	overflow:auto;
+
+#section {
+	float:left;
+	padding-top:50px;
+	
+
 }
 
 .img1 {
 	background-size: auto;
 	height:200px;
 	width:200px;
-	margin-left:10%;
+	padding-left:5%;
 	float:left;
-	position:relative;
 	
 }
+#p {
+	padding-left:25px;
+	width:55%;
 
-
+}
 
 
 h3 {
 	color:#4aaaa5;
-	float:right;
-	width:auto;
-	background-color:white;
-	text-align:center;
+	
+	position:fixed;
+	right:20%;
+	padding-top:10%;
 
 }
 
-#p1 {
-	color:grey;
-	padding-left:26%;
-	padding-right:33%;
-	position:relative;
-	float:left;
-	position:absolute;
-
+#cwm {
+	position:fixed;
+	top:0;
 }
 
 
@@ -77,6 +62,12 @@ h3 {
 	position:absolute;
 
 }
+#footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
 
 .icon{
 	
@@ -87,4 +78,19 @@ h3 {
 	margin:auto;
 	padding-right:10px;
 	display:block;
+
+
 }
+
+}
+<!-- Start Second Page-->
+
+#header {
+	border-width:20px;
+	border-color:black;
+	color: white;
+    background-color: #4aaaa5;
+    clear: left;
+    text-align: left;
+}
+
