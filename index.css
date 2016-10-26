@@ -5,20 +5,34 @@ body {
 #header {
 	position:fixed;
 	top:0;
-	width:60%;
+	width:15%;
 	float:left;
+	background-color:#4aaaa5;
+	color:white;
+	left:5%;
 }
 
 #nav{
 	position:relative;
 	top:0;
-	width:40%;
+	width:80%;
 	float:right;
+	text-align:right;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:80px;
+
 }
 
 #section {
-	float:left;
-	padding-top:50px;
+	position:fixed;
+	padding-top:20px;
+	border: 1px solid black;
+	background-color:white;
+	right:40%;
+	top:13%;
+	left:5%;
+	bottom:30%;
 	
 
 }
@@ -33,24 +47,32 @@ body {
 }
 #p {
 	padding-left:25px;
-	width:55%;
-
+	width:95%;
+	border-color:black;
+	border:2px;
 }
 
 
 h3 {
 	color:#4aaaa5;
-	
+	text-align:center;
 	position:fixed;
-	right:20%;
+	right:21%;
 	padding-top:10%;
 
 }
 
-#cwm {
+#aside {
+
 	position:fixed;
-	top:0;
+	right:20%;
+	
+	top:32%;
 }
+ hr {
+
+ 	top:20%;
+ }
 
 
 #p2 {
@@ -67,6 +89,12 @@ h3 {
 	bottom:0;
 	width:100%;
 	text-align:center;
+	background-color:grey;
+	color:white;
+	font-size:20px;
+	height:10%;
+	border-top: 10px solid #4aaaa5;
+
 }
 
 .icon{
@@ -85,12 +113,4 @@ h3 {
 }
 <!-- Start Second Page-->
 
-#header {
-	border-width:20px;
-	border-color:black;
-	color: white;
-    background-color: #4aaaa5;
-    clear: left;
-    text-align: left;
-}
 
